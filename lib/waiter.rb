@@ -1,6 +1,6 @@
 class Waiter
   
-  attr_accessor :name, :tip
+  attr_accessor :name
   
   @@all=[]
   
@@ -8,7 +8,6 @@ class Waiter
     @name=name
     @years=years
     @@all << self
-    @tip=0
     
   end
   
