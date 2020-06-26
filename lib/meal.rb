@@ -8,7 +8,7 @@ class Meal
     @waiter=waiter
     @customer=customer
     @total=total
-    @tip=0
+    @tip=tip
     @@all << self
   
   end
