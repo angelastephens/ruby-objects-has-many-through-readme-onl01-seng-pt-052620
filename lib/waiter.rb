@@ -8,7 +8,7 @@ class Waiter
     @name=name
     @years=years
     @@all << self
-    @tip=tip
+    @tip=0
     
   end
   
